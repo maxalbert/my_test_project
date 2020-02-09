@@ -1,0 +1,30 @@
+[tool.black]
+line-length = 120
+
+[tool.poetry]
+name = "my_test_project"
+version = "0.2.0"
+description = ""
+license = "MPL-2.0"
+authors = ["Maximilian Albert <maximilian.albert@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+pytest = "^3.0"
+pytest-cov = "^2.8.1"
+ipython = "^7.12.0"
+jupyterlab = "^1.2.6"
+mkdocs = "^1.0.4"
+mkdocs-material = "^4.6.0"
+mktheapidocs = {extras = ["plugin"], version = "*"}
+nbval = "*"
+pre-commit = "*"
+tox = "^3.14.0"
+versioneer = "^0.18"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
