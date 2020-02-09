@@ -1,0 +1,37 @@
+site_name: My Test Project
+nav:
+   - 'Home': index.md
+   - 'Tutorials': tutorials.md
+   - 'How-To Guides': how_to_guides.md
+   - 'Discussions': discussions.md
+   - 'Reference': reference.md
+   - 'API Reference':
+      - api-docs-my_test_project
+   - 'Architectural Decision Records': ADRs/README.md
+   - 'Changelog': CHANGELOG.md
+theme:
+   name: "material"
+   include_search_page: false
+   search_index_only: true
+
+   # Default values, taken from mkdocs_theme.yml
+   language: en
+   feature:
+     # Set to true to use tabs at the top, in addition to the side navbar
+     tabs: false
+   font:
+     text: Roboto
+     code: Roboto Mono
+   palette:
+     primary: "#095798"
+     accent: "#2977B8"
+   logo:
+     # This is the default "academic hat" logo
+     icon: "\uE80C"
+plugins:
+  - search
+  - mktheapidocs:
+      modules:
+        my_test_project:
+          section: my_test_project
+          source_repo: "https://github.com/maxalbert/my_test_project/tree/master/my_test_project"
