@@ -32,11 +32,11 @@ plugins:
   - search
   - awesome-pages:
       collapse_single_pages: false
-  - mktheapidocs:
-      modules:
-        my_test_project:
-          section: my_test_project
-          source_repo: "https://github.com/maxalbert/my_test_project/tree/master/"
+  #- mktheapidocs:
+  #    modules:
+  #      my_test_project:
+  #        section: my_test_project
+  #        source_repo: "https://github.com/maxalbert/my_test_project/tree/master/"
   - mknotebooks:
       execute: false
       # preamble: "notebook_preamble.py"
