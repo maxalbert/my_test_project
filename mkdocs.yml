@@ -1,14 +1,14 @@
 site_name: My Test Project
-nav:
-   - 'Home': index.md
-   - 'Tutorials': tutorials.md
-   - 'How-To Guides': how_to_guides.md
-   - 'Discussions': discussions.md
-   - 'Reference': reference.md
-   - 'API Reference':
-      - api-docs-my_test_project
-   - 'Architectural Decision Records': ADRs/README.md
-   - 'Changelog': CHANGELOG.md
+# nav:
+#    - 'Home': index.md
+#    - 'Tutorials': tutorials.md
+#    - 'How-To Guides': how_to_guides.md
+#    - 'Discussions': discussions.md
+#    - 'Reference': reference.md
+#    - 'API Reference':
+#       - api-docs-my_test_project
+#    - 'Architectural Decision Records': ADRs/README.md
+#    - 'Changelog': CHANGELOG.md
 theme:
    name: "material"
    include_search_page: false
